@@ -6,7 +6,7 @@ const Sidebar = () => {
         <div className='w-[20%] px-4 py-6 fixed '>
             <div className='flex flex-col w-[100%] mt-5'>
                 <div className='flex flex-col gap-1 '>
-                    <img className='w-[70px] rounded-2xl' src={"/profile.jpeg"} alt="" />
+                    <img className='w-[70px] rounded-2xl rotate-90' src={"/profile.jpeg"} alt="" />
                     <span className='text-white text-xl'>Ayush Bhatt</span>
                 </div>
 

@@ -12,7 +12,7 @@ export default function Home() {
 
       <section className=" flex gap-8">
         <div className="flex flex-col ">
-          <div className="w-[720px]  ">
+          <div className="w-[850px]  ">
             <AdCard />
             <div className="my-4 ">
               <div className="flex justify-between items-center ">
@@ -27,14 +27,14 @@ export default function Home() {
         <div className="w-[100%]">
           <div className=" ">
             <div className="flex justify-between items-center ">
-              <p className="text-2xl font-bold tracking-wide">Playlist</p>
+              <p className="text-2xl font-bold tracking-wide">Top Artist</p>
               
             </div>
           </div>
           <TopArtist />
           <TopArtist />
           <TopArtist />
-          <p className=" mt-4 text-zinc-500">See More</p>
+          <p className=" mt-2 text-zinc-500">See More</p>
           <MusicCard/>
         </div>
 
